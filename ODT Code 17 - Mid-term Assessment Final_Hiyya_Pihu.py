@@ -31,7 +31,7 @@ led5.off()
 led6.off()
 time.sleep(2)
 
-#randomly choose 1 LED out of the 6 available LEDs to light up for a small fixed duration (1200 ms)
+#randomly choose 1 LED out of the 6 available LEDs to light up for a small fixed duration (380 ms)
 #repeat this 10 times
 #while an LED is lit, check for touch on the touchpad corresponding to that LED
 #if touched correctly, score is increased
@@ -132,3 +132,4 @@ else:
     led6.on()
     
             
+
